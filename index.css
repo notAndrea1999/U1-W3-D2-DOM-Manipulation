@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+ul li {
+  display: inline;
+  margin-inline: 8px;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  padding-inline: 2rem;
+}
+
+main article:last-of-type {
+  /* border: 2px solid red; */
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.red-and-bold {
+  color: red;
+  font-weight: 900;
+}
+
+/* .test {
+  font-size: 40px;
+} */
+
+.hidden {
+  display: none;
+}
